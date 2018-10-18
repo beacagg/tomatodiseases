@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-* needs the dataset to retrain
+#### needs the dataset to retrain
 
 Initialize Tensorboard
 
