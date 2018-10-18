@@ -1,6 +1,6 @@
-# Project Title
+# Tomato Diseases
 
-Tomato Diseases
+CNNs and Deep Learning (Tensorflow) to classify tomato leaves with diseases. 
 
 ## Getting Started
 
