@@ -4,9 +4,7 @@ Tomato Diseases
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
+### Pre-requisites
 * Python 2.7
 * Tensorflow
 * Tensorboard
@@ -17,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-#### needs the dataset to retrain
+#### Pay attention: Needs the dataset to retrain.
 
 Initialize Tensorboard
 
@@ -34,18 +32,6 @@ bash train.sh
 If want to edit parameters with vi/nano/gedit 
 ```
 vi train.sh
-```
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
 ```
 
 ## Deployment
