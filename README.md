@@ -13,7 +13,7 @@ CNNs and Deep Learning (Tensorflow) to classify tomato leaves with diseases.
 
 
 
-### Installing
+### Training
 
 #### Pay attention: Needs the dataset to retrain.
 
@@ -34,9 +34,16 @@ If want to edit parameters with vi/nano/gedit
 vi train.sh
 ```
 
-## Deployment
+## Running 
 
-Add additional notes about how to deploy this on a live system
+To classify any image file you choose, either from your downloaded collection, or new ones. You just have to change the 
+--image file name argument to the script.
+
+```
+python label_image \
+    --graph=tf_files/retrained_graph.pb  \
+    --image=tf_files/flower_photos/roses/2414954629_3708a1a04d.jpg 
+```
 
 
 ## Authors
