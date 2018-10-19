@@ -33,6 +33,12 @@ If want to edit parameters with vi/nano/gedit
 ```
 vi train.sh
 ```
+OBS: To see tensorboard graphics, after running tensorboard command, go to:
+
+```
+localhost:6006
+```
+
 
 ## Running 
 
